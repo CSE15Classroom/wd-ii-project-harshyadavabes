@@ -1,0 +1,52 @@
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: transparent;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .logo img {
+   width: 50px;
+   margin-left: 30px;
+   }
+  
+  .nav-links {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    font-weight: 500;
+    margin-left: 150px;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li:hover {
+    color: #541212;
+  }
+  
+  .signin-btn {
+    background-color:white ;
+    color: #541212;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 80px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signin-btn:hover {
+    background-color: #541212;
+    color: white;}
